@@ -1,0 +1,327 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background: skyblue;
+}
+
+form{
+  width: fit-content;
+  width: 30rem;
+  margin: auto;
+  background-color: white;
+  min-height: 100vh;
+  margin-top: 5rem;
+
+}
+
+.location{
+  background-color: blue;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 7px 0;
+}
+
+
+.location img{
+  width: 3rem;
+  height: 11vh;
+  object-fit: cover;
+}
+
+.order{
+  text-align: center;
+}
+
+.order h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: blue;
+}
+
+.order p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+  font-size: 15px;
+}
+
+.container{
+  padding: 20px 35px;
+}
+
+
+.another{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.another input{
+  width: 16rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+
+.another label{
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
+
+.another label span{
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.third {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.third input{
+  width: 16rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+
+.third span p{
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: skyblue;
+}
+
+.third label{
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+}
+
+
+.third label span{
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+.personal{
+  border-bottom: 1px solid blue;
+  padding-bottom: 3px;
+}
+
+.personal p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.inform p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: skyblue;
+  border-bottom: 1px solid blue;
+  padding-bottom: .5rem;
+  font-weight: 500;
+}
+
+.order-id{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.input-38 p{
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+
+.input-38 p span{
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.input-3 input{
+  width: 16rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+
+.destination{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+
+.destination span input{
+  width: 16rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+
+.deliver p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: blue;
+}
+
+.deliver p span{
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+.destination span p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  color: skyblue;
+}
+
+
+
+.ad-2{
+  float: right;
+  margin-top: .5rem;
+}
+
+.ad-2 input{
+  width: 16rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+
+.ad-2 p{
+  font-size: 12px;
+  color: skyblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.province{
+  display: flex;
+  margin-top: 3rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+.religion input{
+  width: 7.5rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+.religion p{
+  font-size: 9px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: skyblue;
+}
+
+.postal{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.zip-code select{
+  width: 7.5rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+
+.zip-code input{
+  width: 7.5rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+
+.zip-code  p{
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: skyblue;
+  font-weight: 600;
+}
+
+.calendar{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.when label{
+  font-size: 9px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: blue;
+}
+
+.when label span{
+  color: red;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+.calendar span input{
+  width: 7.5rem;
+  height: 1.5rem;
+  border: 1px solid skyblue;
+  border-radius: .2rem;
+}
+
+.calendar span p{
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: skyblue;
+}
+
+.button{
+display: flex;
+justify-content: center;
+}
+.button button{
+  width: 6rem;
+  height: 2rem;
+  background-color: blue;
+  border: none;
+  border-radius: .2rem;
+}
+
+.button button a{
+  color: #fff;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
