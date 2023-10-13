@@ -19,6 +19,10 @@ form{
 
 }
 
+form input {
+  outline-color: blue;
+}
+
 .location{
   background-color: blue;
   width: 100%;
